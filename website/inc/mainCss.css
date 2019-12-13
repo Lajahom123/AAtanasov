@@ -1,0 +1,426 @@
+/* All pages */
+.backgroung-image-div {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    position: relative;
+}
+img {
+    width:100%;
+    height: 90%;
+    margin-top: -24px;
+}
+.background-page {
+    background-color: black;
+    color: white;
+}
+p{
+    text-align: justify;
+    font-family: 'Poiret One', cursive;
+    padding-left: 6%;
+    padding-right: 6%;
+    font-size: 1.5rem;
+}
+h1{
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+/* Index page */
+
+.mainContentIndex{
+    width: 100%;
+    background-color: white;
+    color: black;   
+    text-align: center;
+    padding-top:18px;
+}
+
+/* Training page */
+
+/* First div */
+
+.list-training-pt{
+    text-align: left;
+    font-family: 'Poiret One';
+    padding-left: 12%;
+    padding-right: 0;
+    font-size: 1.4rem;
+    margin: 0;
+}
+.list-training-pt-span{
+    position: relative;
+    left: -12%;
+    right: 0;
+}
+.font-training-page{
+    font-size: 1.5rem;
+    margin-left: 2%;
+}
+#calisthenics_personal_trainer{
+    width: 487px;
+    height: 312px;
+    float: right;
+    padding-right: 2%;
+    margin: 0;
+    padding-left:0;
+}
+.visibility-1310-under{
+    display: none;
+}
+.visibility-1220-under{
+    display: none;
+}
+.visibility-1100-under{
+    display: none;
+}
+.visibility-990-under{
+    display: none;
+}
+.visibility-900-under{
+    display: none;
+    width: 250px;
+    height: 160px;
+}
+.visibility-800-under{
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+/* Second div */
+
+#training-live-sessions{
+    background-color: black;
+    color: white;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+}
+#workout-health-nutrition{
+    width: 400px;
+    height: 320px;
+    float: right;
+    margin-left: 0;
+    margin-right: 4%;
+    margin-top:5px;
+    
+
+}
+.list-live-training-pt{
+    text-align: left;
+    font-family: 'Poiret One';
+    padding-left: 12%;
+    padding-right: 0;
+    font-size: 1.4rem;
+    margin: 0;
+}
+.list-live-training-pt-span{
+    position: relative;
+    left: -12%;
+    right: 0;
+}
+.visible-over-1100{
+    display: block;
+    margin-bottom: 10px;
+}
+.visible-under-1100{
+    display: none;
+}
+.visible-under-1000{
+    display: none;
+}
+.visible-under-800{
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+/* Third div */
+#training-online-sessions {
+    background-color: white;
+    color: black;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+}
+#online-visible-over-1000{
+    width: 430px;
+    height: 500px;
+    float: right;
+    padding-right: 2%;
+    margin: 0;
+    padding-left:0;
+}
+#online-visible-under-1000{
+    width: 430px;
+    height: 500px;
+    display: none;
+}
+
+
+
+
+
+
+/* About page */
+
+.mainContentAbout{
+    width: 100%;
+    background-color: white;
+    color: black;   
+    text-align: center;
+    padding-top:18px;
+}
+.header-about-page{
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+
+/* Media */
+
+
+/* About page */
+@media screen and (max-width: 1400px) and (min-width: 1150px) {
+    .font-about-page{
+        font-size: 1.4rem;
+    }
+    .header-about-page{
+        font-size: 2.7rem;
+    }
+}
+@media screen and (max-width: 1150px) and (min-width: 900px) {
+    .font-about-page{
+        font-size: 1.4rem;
+    }
+    .header-about-page{
+        font-size: 2.6rem;
+    }
+}
+@media screen and (max-width: 900px) and (min-width: 800px) {
+    .font-about-page{
+        font-size: 1.4rem;
+    }
+    .header-about-page{
+        font-size: 2.5rem;
+    }
+}
+@media screen and (max-width: 800px) and (min-width: 650px) {
+    .font-about-page{
+        font-size: 1.4rem;
+    }
+    .header-about-page{
+        font-size: 2.3rem;
+    }
+}
+@media screen and (max-width: 650px) and (min-width: 550px) {
+    .font-about-page{
+        font-size: 1.4rem;
+    }
+    .header-about-page{
+        font-size: 2.1rem;
+    }
+}
+@media screen and (max-width: 550px) and (min-width: 410px) {
+    .font-about-page{
+        font-size: 1.4rem;
+    }
+    .header-about-page{
+        font-size: 2.1rem;
+    }
+    .break-display{
+        display: none;
+    }
+}
+@media screen and (max-width: 410px) and (min-width: 300px) {
+    .font-about-page{
+        font-size: 1.4rem;
+    }
+    .header-about-page{
+        font-size: 2.1rem;
+    }
+    .break-display{
+        display: none;
+    }
+    .navbar-brand{
+        margin-left: 40%;     
+    }
+}
+@media screen and (max-width: 300px) and (min-width: 230px) {
+    .font-about-page{
+        font-size: 1.4rem;
+    }
+    .header-about-page{
+        font-size: 2.1rem;
+    }
+    .break-display{
+        display: none;
+    }
+    .navbar-brand{
+        margin-left: 40%;     
+    }
+}
+
+@media screen and (max-width: 230px) {
+    .font-about-page{
+        font-size: 1.4rem;
+    }
+    .header-about-page{
+        font-size: 2.1rem;
+    }
+    .break-display{
+        display: none;
+    }
+    .navbar-brand{
+        margin-left: 40%;     
+    }
+}
+/* Training page */
+@media screen and (max-width: 1260px) and (min-width: 1220px) {
+    .visibility-1310-over{
+        display:none;
+    }
+    .visibility-1310-under{
+        display: inline;
+    }
+    .visibility-1220-under{
+        display: none;
+    }
+
+}
+@media screen and (max-width: 1219px) and (min-width: 1100px) {
+    .visibility-1310-over{
+        display:none;
+    }
+    .visibility-1220-under{
+        display: inline;
+    }
+
+}
+@media screen and (max-width: 1099px) and (min-width: 971px) {
+    .visibility-1310-over{
+        display:none;
+    }
+    .visibility-1100-under{
+        display: inline;
+    }
+
+}
+
+@media screen and (max-width: 970px) and (min-width: 865px) {
+    .visibility-1310-over{
+        display:none;
+    }
+    .visibility-990-under{
+        display: inline;
+    }
+
+}
+@media screen and (max-width: 864px) and (min-width: 840px) {
+    .visibility-1310-over{
+        display:none;
+    }
+    .visibility-900-under{
+        display: inline;
+    }
+
+} 
+@media screen and (max-width: 839px) and (min-width: 550px){
+    .visibility-1310-over{
+        display:none;
+    }
+    .visibility-800-under{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: 50%;
+        text-align:center;
+    }
+}
+@media screen and (max-width: 549px) {
+    .visibility-1310-over{
+        display:none;
+    }
+    .visibility-800-under{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        height: 80%;
+        text-align:center;
+        margin-top: 10px;
+    }
+}
+
+
+/* Second and third content of training page */
+
+@media screen and (max-width: 1050px) and (min-width: 940px) {
+    .visible-over-1100{
+        display: none;
+    }
+    .visible-under-1100{
+        display: block;
+    }
+}
+@media screen and (max-width: 939px) and (min-width: 840px)  {
+    .visible-over-1100{
+        display: none;
+    }
+    .visible-under-1000{
+        display: block;
+    }
+}
+@media screen and (max-width: 839px) {
+    .visible-over-1100{
+        display: none;
+    }
+    .visible-under-800{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: 50%;
+        text-align:center;
+        margin-top: 10px;
+    }
+    .visibility-800-under{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        height: 80%;
+        text-align:center;
+        margin-top: 10px;
+    }
+    }
+@media screen and (max-width: 1250px) {
+    .break-over-1250{
+        display: none;
+    }
+}
+@media screen and (max-width: 1000px) {
+    #online-visible-under-1000{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        height: 40%;
+        text-align:center;
+        margin-top:5px;
+    }
+    #online-visible-over-1000{
+        display: none;
+    }
+    }
+    
+
+
+
